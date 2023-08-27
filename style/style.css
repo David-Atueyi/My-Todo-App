@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background:var(--secondary-color);
+}
+
 .container {
     min-width: 345px;
     margin: auto;
@@ -39,7 +43,6 @@ main {
     justify-content: center;
     align-items: center;
     padding: var(--padding);
-    background:var(--secondary-color);
 }
 
 .title_date {
@@ -156,6 +159,12 @@ main {
 }
 
 @media screen and (min-width:700px){
+    body{
+        background: var(--text-color);
+    }
+    main{
+        background: var(--secondary-color);
+    }
     .title_date{
         width: 77%;
     }
